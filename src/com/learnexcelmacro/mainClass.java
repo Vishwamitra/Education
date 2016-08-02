@@ -8,13 +8,20 @@ import java.util.Scanner;
  */
 public class mainClass {
 
-    public  void main (String[] args){
+    public static void main (String[] args){
 
-        calcAge obj = new calcAge();
-        Scanner inputDOB = new Scanner(System.in);
+        mathsLibrary obj = new mathsLibrary();
+        Scanner inputNumbers = new Scanner(System.in);
+        Double a, b;
 
-        System.out.print("Enter your date of birth");
-        System.out.print(obj.ageInYears(inputDOB.next);
+        System.out.print("Enter First Number: ");
+        a= inputNumbers.nextDouble();
+
+        System.out.print("Enter Second Number: ");
+        b= inputNumbers.nextDouble();
+
+
+        System.out.print("Total of two numbers is: " + obj.add(a,b));
 
     }
 }

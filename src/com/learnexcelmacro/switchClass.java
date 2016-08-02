@@ -11,7 +11,7 @@ import java.util.Scanner;
 
 public class switchClass {
 
-    public static void main(String[] args){
+    public  void example(){
 
         /*
         We have an age range where a company is giving different discount based on different age group
