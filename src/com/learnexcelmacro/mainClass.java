@@ -21,7 +21,7 @@ public class mainClass {
         b= inputNumbers.nextDouble();
 
 
-        System.out.print("Total of two numbers is: " + obj.add(a,b));
+        System.out.print("Total of two numbers is: " + obj.add(a,b) + "\n thank you");
 
     }
 }
