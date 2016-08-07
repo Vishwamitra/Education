@@ -1,4 +1,4 @@
-package com.learnexcelmacro;
+package com.learnexcelmacro.mathsLibrary;
 
 /**
  * Created by Vishwa on 8/2/2016.

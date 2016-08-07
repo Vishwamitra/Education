@@ -1,9 +1,10 @@
-package com.learnexcelmacro;
+package com.learnexcelmacro.InvoiceGenerator;
 
 /**
- * Created by Vishwa on 8/2/2016.
+ * Created by Vishwa on 8/7/2016.
  */
-public class priceClac {
+public class priceList {
+
 
     private double burgerPrice = 2.4; //per quantity
     private double friesPrice = 1.9; //per quantity
@@ -30,5 +31,6 @@ public class priceClac {
         double total = cokePrice * itemQty;
         return total;
     }
+
 
 }

@@ -1,4 +1,4 @@
-package com.learnexcelmacro;
+package com.learnexcelmacro.timeTutorial;
 
 /**
  * Created by Vishwa on 7/13/2016.

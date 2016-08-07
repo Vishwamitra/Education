@@ -1,4 +1,6 @@
-package com.learnexcelmacro;
+package com.learnexcelmacro.mathsLibrary;
+
+import com.learnexcelmacro.mathsLibrary.mathsLibrary;
 
 import java.util.Scanner;
 
