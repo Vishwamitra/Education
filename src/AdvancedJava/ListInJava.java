@@ -2,13 +2,9 @@
 
 package AdvancedJava;
 
-/**
- * Created by Vishwa on 3/20/2017.
- */
-
 public class ListInJava {
 
-    public  void main (String[] args)
+    private  void printValue()
     {
     String[] words= {"Ram", "Shyam", "Haram", "Pranam"};
 
@@ -16,8 +12,11 @@ public class ListInJava {
     {
         System.out.print(w.indexOf("r"));
     }
-
-
     }
 
+    public void printVal(){
+
+        this.printValue();
+
+    }
 }
