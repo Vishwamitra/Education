@@ -8,7 +8,7 @@ public class calling {
 
     public static void main (String[] args){
 
-        satyam andf = new satyam();
+        satyam andf = new satyam(1, 5, 8);
 
     }
 

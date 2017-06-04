@@ -23,6 +23,12 @@ public class satyam {
 
     }
 
+    public  satyam(int a, int b, int c, int d){ //this is a constructor with two parameter
+
+        System.out.printf("The sum of all the numbers you entered is : %d", a+b+c+d);
+
+    }
+
 
 
     }

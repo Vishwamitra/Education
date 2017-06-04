@@ -2,6 +2,7 @@ package com.learnexcelmacro.SwitchStatement;
 /**
  * Created by Vishwa on 7/17/2016.
  */
+
 import com.learnexcelmacro.timeTutorial.calcAge;
 
 import java.text.ParseException;
@@ -13,13 +14,13 @@ import java.util.Scanner;
 public class switchClass {
 
 
-    public static void main (String[] args){
+    public static void main(String[] args) {
 
         example();
 
     }
 
-    public static  void example(){
+    public static void example() {
 
         /*
         We have an age range where a company is giving different discount based on different age group
@@ -59,16 +60,14 @@ public class switchClass {
             case 17:
             case 18:
             case 19:
-            case 20:
-            {
+            case 20: {
                 System.out.print("You are too young to drink\n");
                 System.out.println("You'r Date of Birth is : " + dob);
                 System.out.print("You'r Age (today) is : " + age + " years");
                 break;
             }
 
-            case 29:
-            {
+            case 29: {
                 System.out.print("Show your ID proof and take this\n");
                 System.out.println("You'r Date of Birth is : " + dob);
                 System.out.print("You'r Age (today) is : " + age + " years");
@@ -81,7 +80,6 @@ public class switchClass {
                 System.out.print("You'r Age (today) is : " + age + " years");
 
         }
-
 
 
     }
