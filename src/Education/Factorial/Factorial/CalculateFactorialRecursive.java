@@ -1,9 +1,9 @@
-package Education.Factorial;
+package Education.Factorial.Factorial;
 
 import java.math.BigInteger;
 import java.util.Scanner;
 
-public class CalculateFactorialRecursive {
+class CalculateFactorialRecursive {
 
     private static BigInteger calcFactorialUsingRecursiveFunction(int inputNumber) {
 
@@ -16,6 +16,8 @@ public class CalculateFactorialRecursive {
         return factVal;
     }
 
+
+    // MainMethodToTest Function to test the factorial function
     public static void main(String args[]) throws Exception {
 
         Scanner scanner = new Scanner(System.in);
