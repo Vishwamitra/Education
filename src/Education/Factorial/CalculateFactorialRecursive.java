@@ -1,21 +1,21 @@
-package Education.Factorial.Factorial;
+package Education.Factorial;
 
 import java.math.BigInteger;
 import java.util.Scanner;
 
-@SuppressWarnings("WeakerAccess")
-class CalculateFactorial {
+class CalculateFactorialRecursive {
 
-    private static void calcFactorialUsingForLoop(int inputNumber) {
+    private static BigInteger calcFactorialUsingRecursiveFunction(int inputNumber) {
 
         BigInteger factVal;
-        factVal = BigInteger.ONE;
 
-        for (int i = 1; i <= inputNumber; i++) {
-            factVal = factVal.multiply(BigInteger.valueOf(i));
-        }
-        System.out.println(factVal);
+        if (inputNumber == 1)
+            return BigInteger.ONE;
+        factVal = (calcFactorialUsingRecursiveFunction(inputNumber-1).multiply(BigInteger.valueOf(inputNumber)));
+
+        return factVal;
     }
+
 
     // MainMethodToTest Function to test the factorial function
     public static void main(String args[]) throws Exception {
@@ -24,7 +24,8 @@ class CalculateFactorial {
         System.out.println("Please Enter any Integer : \n");
         if (scanner.hasNextInt()) {
             int input = scanner.nextInt();
-            calcFactorialUsingForLoop(input);
+           BigInteger fact = calcFactorialUsingRecursiveFunction(input);
+            System.out.println("Factorial is : " + fact);
         }
         else {
             System.out.println("Invalid input !! Please Enter an Integer");

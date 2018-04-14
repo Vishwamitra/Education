@@ -1,4 +1,4 @@
-package Education.Factorial.Sorting;
+package Education.Sorting;
 
 class BubbleSort {
 
