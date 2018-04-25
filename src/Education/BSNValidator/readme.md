@@ -13,3 +13,5 @@ This means 614961122 is not a VALID BSN Number of Netherlands
 
 To do this validation easily in Excel, I created a Excel VBA function using above Algorithm, to validate if a given number is a valid BSN number of Netherlands or not.
 Note: With validity, I do not mean, if this is a real existing BSN number or not, but whether that number qualifies the Elfproef or 11-check.
+
+<h3> You can read more about it on my Excel VBA blog... http://www.learnexcelmacro.com</h3>
