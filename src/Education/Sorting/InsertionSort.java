@@ -24,7 +24,7 @@ public class InsertionSort {
         InsertionSort insertionSort = new InsertionSort();
         int [] arr ={1, 5, 2, 100, 8, 7, 89};
         result = insertionSort.insertSort(arr);
-        for (int i =0 ; i<7;i++){
+        for (int i =0; i < 7; i++){
             System.out.println(result[i] + " \n");
         }
     }
