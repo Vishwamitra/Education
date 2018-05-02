@@ -3,6 +3,7 @@ package Education.RandomBSNNumberGenerator;
 import Education.BSNValidator.validateBSN;
 
 import java.util.Random;
+import java.util.logging.Logger;
 
 /**
  * Created by Vishwa on 4/25/2018.
