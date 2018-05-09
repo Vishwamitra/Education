@@ -12,9 +12,10 @@ public class ShellSort {
             {
                 int temp = arr[i];
                 int j;
-                for (j = i; j >= part && arr[j - part] > temp; j -= part)
+                for (j = i; j >= part && arr[j - part] > temp; j -= part){
                     arr[j] = arr[j - part];
-                arr[j] = temp;
+                }
+                    arr[j] = temp;
             }
         }
         return arr;
