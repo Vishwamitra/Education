@@ -25,8 +25,7 @@ class CalculateFactorial {
         if (scanner.hasNextInt()) {
             int input = scanner.nextInt();
             calcFactorialUsingForLoop(input);
-        }
-        else {
+        } else {
             System.out.println("Invalid input !! Please Enter an Integer");
         }
     }

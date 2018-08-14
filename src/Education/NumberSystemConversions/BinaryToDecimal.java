@@ -7,11 +7,11 @@ import java.util.Scanner;
  */
 public class BinaryToDecimal {
 
-    private static int binToDec(String bin){
-        double dec=0;
-        for(int i = 0; i< bin.length(); i++){
-            if (bin.charAt(i) == '1'){
-                dec = dec + Math.pow(2, bin.length()-i-1);
+    private static int binToDec(String bin) {
+        double dec = 0;
+        for (int i = 0; i < bin.length(); i++) {
+            if (bin.charAt(i) == '1') {
+                dec = dec + Math.pow(2, bin.length() - i - 1);
             }
         }
         return (int) dec;
@@ -22,7 +22,7 @@ public class BinaryToDecimal {
         System.out.print("Enter Binary Number : ");
         String input = scanner.next("[0-1]*");
         scanner.close();
-        System.out.println("Decimal of Binary " +input + " is = " + binToDec(input));
+        System.out.println("Decimal of Binary " + input + " is = " + binToDec(input));
     }
 
 }

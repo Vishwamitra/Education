@@ -7,14 +7,14 @@ import java.util.Scanner;
  */
 public class DecimalToHex {
 
-    private static String intToHex(int a){
-        String bin ="";
-        int rem =0;
-        String append="";
-        while (a!=0){
-            rem = a%16;
-             a = a/16;
-            switch (rem){
+    private static String intToHex(int a) {
+        String bin = "";
+        int rem = 0;
+        String append = "";
+        while (a != 0) {
+            rem = a % 16;
+            a = a / 16;
+            switch (rem) {
                 case 10:
                     append = "A";
                     break;
@@ -33,10 +33,10 @@ public class DecimalToHex {
                 case 15:
                     append = "F";
                     break;
-                default :
+                default:
                     append = String.valueOf(rem);
             }
-             bin = append + bin;
+            bin = append + bin;
         }
         return bin;
     }
@@ -50,7 +50,7 @@ public class DecimalToHex {
         System.out.print("Enter positive integer to convert to Hex: ");
         int input = scanner.nextInt();
         scanner.close();
-       System.out.println("Hex of integer " +input + " is = " + intToHex(input));
+        System.out.println("Hex of integer " + input + " is = " + intToHex(input));
     }
 
 }

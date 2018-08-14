@@ -7,12 +7,12 @@ import java.util.Scanner;
  */
 public class DecimalToBinary {
 
-    private static String intToBin(int a){
-        String bin ="";
-        int rem =0;
-        while (a!=0){
-            rem = a%2;
-            a = a/2;
+    private static String intToBin(int a) {
+        String bin = "";
+        int rem = 0;
+        while (a != 0) {
+            rem = a % 2;
+            a = a / 2;
             bin = String.valueOf(rem) + bin;
         }
         return bin;
@@ -27,7 +27,7 @@ public class DecimalToBinary {
         System.out.print("Enter positive integer to convert to Binary: ");
         int input = scanner.nextInt();
         scanner.close();
-       System.out.println("Binary of integer " +input + " is = " + intToBin(input));
+        System.out.println("Binary of integer " + input + " is = " + intToBin(input));
     }
 
 }

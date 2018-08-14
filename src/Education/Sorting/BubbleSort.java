@@ -25,9 +25,9 @@ class BubbleSort {
     }
 
     //Main Function to test the bubble sorting function
-    public static void main(String args[]){
+    public static void main(String args[]) {
 
-        int[] arr = {10,20,1,2,80,40,20,30,5};
+        int[] arr = {10, 20, 1, 2, 80, 40, 20, 30, 5};
         int[] result;
         result = bubbleSort(arr);
         System.out.println("Sorted array is here....  ");

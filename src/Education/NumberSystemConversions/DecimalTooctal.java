@@ -7,12 +7,12 @@ import java.util.Scanner;
  */
 public class DecimalTooctal {
 
-    private static String intToOct(int a){
-        String bin ="";
-        int rem =0;
-        while (a!=0){
-            rem = a%8;
-            a = a/8;
+    private static String intToOct(int a) {
+        String bin = "";
+        int rem = 0;
+        while (a != 0) {
+            rem = a % 8;
+            a = a / 8;
             bin = String.valueOf(rem) + bin;
         }
         return bin;
@@ -27,7 +27,7 @@ public class DecimalTooctal {
         System.out.print("Enter positive integer to convert to Octal: ");
         int input = scanner.nextInt();
         scanner.close();
-       System.out.println("Octa of integer " +input + " is = " + intToOct(input));
+        System.out.println("Octa of integer " + input + " is = " + intToOct(input));
     }
 
 }
