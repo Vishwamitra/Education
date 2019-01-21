@@ -11,7 +11,7 @@ class CalculateFactorialRecursive {
 
         if (inputNumber == 1)
             return BigInteger.ONE;
-        factVal = (calcFactorialUsingRecursiveFunction(inputNumber-1).multiply(BigInteger.valueOf(inputNumber)));
+        factVal = (calcFactorialUsingRecursiveFunction(inputNumber - 1).multiply(BigInteger.valueOf(inputNumber)));
 
         return factVal;
     }
@@ -24,10 +24,9 @@ class CalculateFactorialRecursive {
         System.out.println("Please Enter any Integer : \n");
         if (scanner.hasNextInt()) {
             int input = scanner.nextInt();
-           BigInteger fact = calcFactorialUsingRecursiveFunction(input);
+            BigInteger fact = calcFactorialUsingRecursiveFunction(input);
             System.out.println("Factorial is : " + fact);
-        }
-        else {
+        } else {
             System.out.println("Invalid input !! Please Enter an Integer");
         }
     }
