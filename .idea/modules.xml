@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/999-PERSONAL-GIT.iml" filepath="$PROJECT_DIR$/999-PERSONAL-GIT.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/PERREPO.iml" filepath="$PROJECT_DIR$/.idea/PERREPO.iml" />
     </modules>
   </component>
 </project>

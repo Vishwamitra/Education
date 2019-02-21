@@ -7,10 +7,11 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="999-PERSONAL-GIT" />
+        <module name="PERREPO" />
       </profile>
     </annotationProcessing>
-    <bytecodeTargetLevel>
-      <module name="999-PERSONAL-GIT" target="1.5" />
+    <bytecodeTargetLevel target="7">
+      <module name="PERREPO" target="7" />
     </bytecodeTargetLevel>
   </component>
 </project>
